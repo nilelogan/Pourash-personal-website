@@ -1,0 +1,148 @@
+body {
+  color: #40514E;
+  margin: 0;
+  /* this changes margins on all 4 sides */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  line-height: 1; /*default is 1 just keeping here as placeholder*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%;
+  padding-top: 50px;
+
+}
+
+.top-container {
+  background-color: #20999b;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.intro-text {
+  width: 55%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.my-image {
+  border-radius: 50%;
+}
+
+.skill-img {
+  width: 30%;
+  height: auto;
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
+.change-img {
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+
+/* Contact Me button*/
+.myButton {
+	box-shadow: 0px 1px 0px 0px #11cdd4;
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:6px;
+	border:1px solid #11cdd4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#30e3cb;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
